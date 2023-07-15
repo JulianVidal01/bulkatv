@@ -200,7 +200,7 @@ body {
   .info-section {
     margin-top: auto;
     background-color: #d3d2d2;
-    padding: 20px;
+    padding: 0px;
   }
   
   .info-section h2,
@@ -224,5 +224,33 @@ body {
   
   .card:hover {
     background-color: #bcbcbc; /* Cambia #ff0000 por el color de fondo deseado al pasar el cursor */
+  }
+
+
+/* Footer */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-text p {
+    margin: 0;
+  }
+  
+  .footer-icon {
+    margin-left: 10px;
   }
   
